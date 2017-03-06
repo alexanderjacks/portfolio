@@ -1,0 +1,20 @@
+.interesting-link {
+  &:hover {
+    @include pulsate();
+  }
+  &:active {
+    @include bounce();
+  }
+}
+
+.iconsize {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.fun-icon {
+  @extend .iconsize;
+  padding: 6px;
+  @extend .interesting-link;
+  opacity: 0.7;
+}

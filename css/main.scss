@@ -1,0 +1,44 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "saffron/saffron";
+@import "layout";
+@import "mixins";
+@import "parallax";
+@import "icons";
+$fontsize: 1.5em;
+
+body {
+  // background: url("../img/frontier_fields_orange.png");
+  font-family: 'Droid Serif', serif;
+  font-size: $fontsize;
+  color: mintcream;
+  a {
+    color: peachpuff;
+    &:hover, &:active {
+      @include pulsate;
+      color: lime;
+    }
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Baloo', monospace, sans-serif;
+  font-size: $fontsize*1.2;
+    h4, h5, h6 {
+      font-size: $fontsize*1.1;
+    }
+  @include text-glow(tomato);
+}
+ul {
+  list-style-type: none;
+  // width: 90%;
+  // margin-left: 20vw;
+  align-self: center;
+}
+li {
+  font-family: 'Kumar One', monospace;
+  font-size: $fontsize;
+  padding-top: 3vh;
+  @include text-glow(maroon);
+  a {text-decoration: none;}
+}
