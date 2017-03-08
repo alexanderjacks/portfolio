@@ -23,7 +23,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Baloo', monospace, sans-serif;
-  font-size: $fontsize*1.2;
+  font-size: $fontsize*1.1;
     h4, h5, h6 {
       font-size: $fontsize*1.1;
     }
@@ -36,7 +36,7 @@ ul {
   align-self: center;
 }
 li {
-  font-family: 'Kumar One', monospace;
+  font-family: 'Baloo';
   font-size: $fontsize;
   padding-top: 3vh;
   @include text-glow(maroon);
