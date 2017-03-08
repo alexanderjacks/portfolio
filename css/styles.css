@@ -2498,6 +2498,9 @@ body {
       animation: pulsate 3 1.5s 0s none;
       color: lime; }
 
+section div, section ul {
+  margin-left: 3vw; }
+
 h1, h2, h3 {
   font-family: 'Baloo', monospace, sans-serif;
   font-size: 1.65em;

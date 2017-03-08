@@ -21,6 +21,10 @@ body {
   }
 }
 
+section div, section ul {
+  margin-left: 3vw;
+}
+
 h1, h2, h3 {
   font-family: 'Baloo', monospace, sans-serif;
   font-size: $fontsize*1.1;
